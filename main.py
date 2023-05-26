@@ -19,9 +19,9 @@ def nan_index(df):
 
 combined_data = pd.read_csv('Data/combined_data.csv')
 
-print('age max: ' + str(combined_data['age'].max()) + '  /  age min: ' + str(combined_data['age'].min()))
-print('avg_glucose_level max: ' + str(combined_data['avg_glucose_level'].max()) + '  /  avg_glucose_level min: ' + str(combined_data['avg_glucose_level'].min()))
-print('bmi max: ' + str(combined_data['bmi'].max()) + '  /  bmi min: ' + str(combined_data['bmi'].min()))
+print('age max' + str(combined_data['age'].max()) + '  /  age min' + str(combined_data['age'].min()))
+print('avg_glucose_level max' + str(combined_data['avg_glucose_level'].max()) + '  /  avg_glucose_level min' + str(combined_data['avg_glucose_level'].min()))
+print('bmi max' + str(combined_data['bmi'].max()) + '  /  bmi min' + str(combined_data['bmi'].min()))
 
 
 
